@@ -8,9 +8,9 @@ This project is designed to analyze a vast array of technical indicators and ass
 - Custom functions in `time_series_utils.py` for calculating lags, applying technical indicators, and overlapping different temporalities.
 - Visualization of data and results using the `seaborn` library.
 - Utilization of LightGBM for efficient feature selection and modeling.
+- Model evaluation doing cross-validation, multi-class ROC AUC curves and various classification metrics
 
 ## Technologies Used
-- Python
 - pandas_ta: For a wide range of technical indicators.
 - seaborn: For data visualization.
 - LightGBM: For machine learning models.
